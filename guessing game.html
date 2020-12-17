@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Number Guessing</title>
+</head>
+<body>
+	<script>
+	var userNumber =10;
+	var randomNumber = Math.floor(Math.random() * 10 + 1);
+	while (attempts != randomNumber){
+    var attempts = prompt("Please pick a number between 1 and " + userNumber);
+    
+    if (attempts == randomNumber){
+        document.write("Yeah! You guess the correct number!");
+        document.write("<p>")
+        document.write(" The random number was " + randomNumber);
+    }
+}
+
+	</script>
+</body>
+</html>
